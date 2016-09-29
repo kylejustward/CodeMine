@@ -5,7 +5,7 @@ $years = 1.0;
 $months = 1.0;
 $monthlyPayments = 1.0;
 ?>
-<!DOCTYPE HTML>
+
 <html>
   <head>
     <title></title>
