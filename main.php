@@ -1,4 +1,7 @@
     <?php 
+    /*
+     * Mortage Calculator Code
+     */
     	$principleAmount = $_POST['principleAmount'];
     	$interestRate = $_POST['interestRate'];
     	$interestRate = $interestRate / 100;
@@ -9,4 +12,21 @@
     	if(isset($_POST['principleAmount'])){
     	echo "$monthlyPayments";
     	}
+    ?>
+    
+    <?php 
+    /*
+     * Investment Tab Code
+     *
+    	$address = $_POST['address'];
+    	$sqrFt = $_POST['squareFeet'];
+    	$price = $_POST['price'];
+    	
+    	$priceSqrFt = 0.0;
+    	$closingCost = 0.0;
+    	$agent = 0.0;
+    	$repairs = 0.0;
+    	
+    	*/
+    	
     ?>
